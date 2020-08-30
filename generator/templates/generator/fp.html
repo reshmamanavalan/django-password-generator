@@ -1,11 +1,17 @@
 <h1 align="center">Password Generator </h1>
 <h5>The password generator is the easiest way to generate the password with all the requirements needed</h5>
-<p>the options to generate password or given below<ul>
-
+<p>the options to generate password or given below</p>
+<ul>
+<form action="{%url 'Length'%}">
   <li>length<input type="submit" name="length" value="view more"></li>
-
+  </form>
+  <form action="{%url 'uppercase'%}">
   <li>uppercase<input type="submit" name="uppercase" value="view more"></li>
-  <li>numbers<input type="submit" name="numbers" value="view more"></li>
+  </form>
+  <form action="{%url 'numbers'%}">
+<li>numbers<input type="submit" name="numbers" value="view more"></li>
+</form>
+<form action="{%url 'specialchar'%}">
   <li>special symbols<input type="submit" name="ss" value="view more"></li>
-</ul>
-<input type="submit"value="home">
+</form></ul>
+<a href="home/">here is the way to go </a>

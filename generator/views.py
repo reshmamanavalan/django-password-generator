@@ -20,3 +20,11 @@ def password(request):
     return render(request,'generator/password.html',{'password':thepassword})
 def fp(request):
     return render(request,'generator/fp.html')
+def Length(request):
+    return render(request,'generator/Length.html')
+def numbers(request):
+    return render(request,'generator/numbers.html')
+def specialchar(request):
+    return render(request,'generator/specialchar.html')
+def uppercase(request):
+    return render(request,'generator/uppercase.html')
